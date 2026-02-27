@@ -1,0 +1,13 @@
+Source: ros-humble-mbf-simple-nav
+Section: misc
+Priority: optional
+Maintainer: Alexander Mock <alexander.mock@naturerobots.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-gmock <!nocheck>, ros-humble-geometry-msgs, ros-humble-mbf-abstract-core, ros-humble-mbf-abstract-nav, ros-humble-mbf-msgs, ros-humble-mbf-simple-core, ros-humble-mbf-test-utility <!nocheck>, ros-humble-mbf-utility, ros-humble-nav-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-ros-workspace
+Homepage: http://github.com/naturerobots/move_base_flex
+Standards-Version: 3.9.2
+
+Package: ros-humble-mbf-simple-nav
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-geometry-msgs, ros-humble-mbf-abstract-core, ros-humble-mbf-abstract-nav, ros-humble-mbf-msgs, ros-humble-mbf-simple-core, ros-humble-mbf-utility, ros-humble-nav-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-ros-workspace
+Description: The mbf_simple_nav package contains a simple navigation server implementation of Move Base Flex (MBF).
+ The simple navigation server is bound to no map representation. It provides actions for planning, controlling and recovering. MBF loads all defined plugins which are defined in the lists *planners*, *controllers* and *recovery_behaviors*. Each list holds a pair of a *name* and a *type*. The *type* defines which kind of plugin to load. The *name* defines under which name the plugin should be callable by the actions. It tries to load the defined plugins which implements the defined interfaces in mbf_abstract_core.
