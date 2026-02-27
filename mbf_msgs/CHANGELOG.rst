@@ -2,6 +2,10 @@
 Changelog for package mbf_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.2 (2026-02-10)
+------------------
+* Removed unused dependencies, see #368
+
 1.0.1 (2026-02-10)
 ------------------
 * Fixes tests, see #362
@@ -56,4 +60,3 @@ Changelog for package mbf_msgs
 0.1.0 (2018-03-22)
 ------------------
 * First release of move_base_flex for kinetic and lunar
-ca
