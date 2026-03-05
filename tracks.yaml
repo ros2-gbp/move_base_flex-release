@@ -23,7 +23,7 @@ tracks:
     release_tag: :{version}
     ros_distro: humble
     vcs_type: git
-    vcs_uri: git@github.com:naturerobots/move_base_flex.git
+    vcs_uri: https://github.com/naturerobots/move_base_flex.git
     version: :{auto}
   jazzy:
     actions:
