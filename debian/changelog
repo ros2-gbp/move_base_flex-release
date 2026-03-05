@@ -1,0 +1,107 @@
+ros-humble-mbf-utility (1.0.3-1jammy) jammy; urgency=high
+
+
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Wed, 04 Mar 2026 23:00:00 -0000
+
+ros-humble-mbf-utility (1.0.2-1jammy) jammy; urgency=high
+
+  * Removed unused dependencies, see #368
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Mon, 09 Feb 2026 23:00:00 -0000
+
+ros-humble-mbf-utility (1.0.1-1jammy) jammy; urgency=high
+
+  * Fixes tests, see #362
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Mon, 09 Feb 2026 23:00:00 -0000
+
+ros-humble-mbf-utility (1.0.0-1jammy) jammy; urgency=high
+
+  * ROS 2 migration, see #346
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Mon, 02 Jun 2025 22:00:00 -0000
+
+ros-humble-mbf-utility (0.4.0-1jammy) jammy; urgency=high
+
+  * return empty footprint if partly outside of the map, see #272
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Mon, 25 Oct 2021 22:00:00 -0000
+
+ros-humble-mbf-utility (0.3.4-1jammy) jammy; urgency=high
+
+
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Tue, 01 Dec 2020 23:00:00 -0000
+
+ros-humble-mbf-utility (0.3.3-1jammy) jammy; urgency=high
+
+  * fix controller fails if robot pose gets older than tf_timeout
+  * Make reference symbol position consistent across the project
+  * Move RobotInformation to mbf_utility, as it can be used generally
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Wed, 04 Nov 2020 23:00:00 -0000
+
+ros-humble-mbf-utility (0.3.2-1jammy) jammy; urgency=high
+
+  * Remove dependency on base_local_planner and move FootprintHelper class to mbf_costmap_nav and make it static
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Sun, 24 May 2020 22:00:00 -0000
+
+ros-humble-mbf-utility (0.3.1-1jammy) jammy; urgency=high
+
+
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Mon, 06 Apr 2020 22:00:00 -0000
+
+ros-humble-mbf-utility (0.3.0-1jammy) jammy; urgency=high
+
+  * Add exception classes for get_path, exe_path and recovery
+  * unify license declaration to BSD-3
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Mon, 30 Mar 2020 22:00:00 -0000
+
+ros-humble-mbf-utility (0.2.5-1jammy) jammy; urgency=high
+
+
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Thu, 10 Oct 2019 22:00:00 -0000
+
+ros-humble-mbf-utility (0.2.4-1jammy) jammy; urgency=high
+
+  * Add check_point_cost service
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Sat, 15 Jun 2019 22:00:00 -0000
+
+ros-humble-mbf-utility (0.2.3-1jammy) jammy; urgency=high
+
+  * Fix getRobotPose in melodic
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Tue, 13 Nov 2018 23:00:00 -0000
+
+ros-humble-mbf-utility (0.2.2-1jammy) jammy; urgency=high
+
+
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Tue, 09 Oct 2018 22:00:00 -0000
+
+ros-humble-mbf-utility (0.2.1-1jammy) jammy; urgency=high
+
+  * Make MBF melodic and indigo compatible
+  * Fix GoalHandle references bug in callbacks
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Tue, 02 Oct 2018 22:00:00 -0000
+
+ros-humble-mbf-utility (0.2.0-1jammy) jammy; urgency=high
+
+  * Update copyright and 3-clause-BSD license
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Mon, 10 Sep 2018 22:00:00 -0000
+
+ros-humble-mbf-utility (0.1.0-1jammy) jammy; urgency=high
+
+  * First release of move_base_flex for kinetic and lunar
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Wed, 21 Mar 2018 23:00:00 -0000
+
+
