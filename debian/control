@@ -1,0 +1,12 @@
+Source: ros-humble-rviz-mbf-plugins
+Section: misc
+Priority: optional
+Maintainer: Alexander Mock <alexander.mock@naturerobots.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-auto <!nocheck>, ros-humble-ament-cmake-uncrustify <!nocheck>, ros-humble-geometry-msgs, ros-humble-mbf-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rviz-common, ros-humble-ros-workspace
+Homepage: http://github.com/naturerobots/move_base_flex
+Standards-Version: 3.9.2
+
+Package: ros-humble-rviz-mbf-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5widgets5, qtbase5-dev, ros-humble-geometry-msgs, ros-humble-mbf-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rviz-common, ros-humble-ros-workspace
+Description: Contains rviz plugins for interacting with move base flex.
