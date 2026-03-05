@@ -1,0 +1,12 @@
+Source: ros-jazzy-mbf-utility
+Section: misc
+Priority: optional
+Maintainer: Alexander Mock <alexander.mock@naturerobots.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-geometry-msgs, ros-jazzy-mbf-msgs, ros-jazzy-rclcpp, ros-jazzy-tf2, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://github.com/naturerobots/move_base_flex
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-mbf-utility
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-geometry-msgs, ros-jazzy-mbf-msgs, ros-jazzy-rclcpp, ros-jazzy-tf2, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Description: The mbf_utility package
