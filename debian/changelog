@@ -1,0 +1,37 @@
+ros-jazzy-rviz-mbf-plugins (1.0.5-1noble) noble; urgency=high
+
+  * fixed missing dependency, see #378
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Thu, 05 Mar 2026 23:00:00 -0000
+
+ros-jazzy-rviz-mbf-plugins (1.0.4-1noble) noble; urgency=high
+
+  * added missing dependencies to rviz_mbf_plugins, see #376
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Wed, 04 Mar 2026 23:00:00 -0000
+
+ros-jazzy-rviz-mbf-plugins (1.0.3-1noble) noble; urgency=high
+
+
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Wed, 04 Mar 2026 23:00:00 -0000
+
+ros-jazzy-rviz-mbf-plugins (1.0.2-1noble) noble; urgency=high
+
+  * Removed unused dependencies, see #368
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Mon, 09 Feb 2026 23:00:00 -0000
+
+ros-jazzy-rviz-mbf-plugins (1.0.1-1noble) noble; urgency=high
+
+  * Fixes tests, see #362
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Mon, 09 Feb 2026 23:00:00 -0000
+
+ros-jazzy-rviz-mbf-plugins (1.0.0-1noble) noble; urgency=high
+
+  * ROS 2 migration, see #346
+
+ -- Alexander Mock <alexander.mock@naturerobots.com>  Mon, 02 Jun 2025 22:00:00 -0000
+
+

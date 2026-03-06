@@ -1,0 +1,12 @@
+Source: ros-jazzy-rviz-mbf-plugins
+Section: misc
+Priority: optional
+Maintainer: Alexander Mock <alexander.mock@naturerobots.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-jazzy-ament-cmake, ros-jazzy-geometry-msgs, ros-jazzy-mbf-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rviz-common, ros-jazzy-ros-workspace
+Homepage: http://github.com/naturerobots/move_base_flex
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rviz-mbf-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5t64, libqt5gui5t64, libqt5widgets5t64, qtbase5-dev, ros-jazzy-geometry-msgs, ros-jazzy-mbf-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rviz-common, ros-jazzy-ros-workspace
+Description: Contains rviz plugins for interacting with move base flex.
