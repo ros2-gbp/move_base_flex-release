@@ -1,3 +1,35 @@
+## move_base_flex (jazzy) - 1.0.5-1
+
+The packages in the `move_base_flex` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release move_base_flex --rosdistro jazzy -e` on `Fri, 06 Mar 2026 09:17:12 -0000`
+
+These packages were released:
+- `mbf_abstract_core`
+- `mbf_abstract_nav`
+- `mbf_msgs`
+- `mbf_simple_core`
+- `mbf_simple_nav`
+- `mbf_test_utility`
+- `mbf_utility`
+- `move_base_flex`
+- `rviz_mbf_plugins`
+
+Version of package(s) in repository `move_base_flex`:
+
+- upstream repository: https://github.com/naturerobots/move_base_flex.git
+- release repository: https://github.com/ros2-gbp/move_base_flex-release.git
+- rosdistro version: `1.0.4-1`
+- old version: `1.0.4-1`
+- new version: `1.0.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## move_base_flex (humble) - 1.0.5-1
 
 The packages in the `move_base_flex` repository were released into the `humble` distro by running `/usr/bin/bloom-release move_base_flex --rosdistro humble -e` on `Fri, 06 Mar 2026 09:14:43 -0000`
