@@ -42,6 +42,8 @@ tracks:
       :{release_inc} --os-name fedora
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel
+    - git-bloom-generate -y rosdynrpm --prefix release/:{ros_distro} :{ros_distro}
+      -i :{release_inc} --require-os fedora rhel
     devel_branch: ros2
     last_version: 1.0.5
     name: upstream
@@ -51,5 +53,5 @@ tracks:
     release_tag: :{version}
     ros_distro: jazzy
     vcs_type: git
-    vcs_uri: https://github.com/naturerobots/move_base_flex.git
+    vcs_uri: git@github.com:naturerobots/move_base_flex.git
     version: :{auto}
