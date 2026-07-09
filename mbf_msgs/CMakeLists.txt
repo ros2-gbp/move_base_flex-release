@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
 project(mbf_msgs)
 
 # Default to C++14
@@ -18,6 +18,7 @@ find_package(nav_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/ExePath.action"
   "action/GetPath.action"
+  "action/RefinePath.action"
   "action/MoveBase.action"
   "action/Recovery.action"
   "srv/CheckPath.srv"
