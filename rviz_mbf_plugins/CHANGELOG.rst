@@ -2,6 +2,15 @@
 Changelog for package rviz_mbf_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.0 (2026-07-09)
+------------------
+* ROS 2 Lyrical Compatibility
+* Non-blocking RobotInfo for faster control cycles
+
+1.1.0 (2026-06-18)
+------------------
+* Added PlanRefiner interface, see #353
+
 1.0.5 (2026-03-06)
 ------------------
 * fixed missing dependency, see #378
