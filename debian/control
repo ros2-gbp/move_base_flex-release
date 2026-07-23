@@ -1,0 +1,13 @@
+Source: ros-lyrical-mbf-test-utility
+Section: misc
+Priority: optional
+Maintainer: "Alexander Mock" <alexander.mock@naturerobots.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-mbf-msgs, ros-lyrical-nav-msgs, ros-lyrical-rclcpp, ros-lyrical-tf2-geometry-msgs, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Homepage: http://github.com/naturerobots/move_base_flex
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-mbf-test-utility
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry-msgs, ros-lyrical-mbf-msgs, ros-lyrical-nav-msgs, ros-lyrical-rclcpp, ros-lyrical-tf2-geometry-msgs, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Description: Contains tools that help with testing move base flex modules.
+ This package should only be used as a test dependency. If some tool shall be used in production, move it into mbf_utility for example.
