@@ -1,0 +1,12 @@
+Source: ros-lyrical-rviz-mbf-plugins
+Section: misc
+Priority: optional
+Maintainer: "Alexander Mock" <alexander.mock@naturerobots.com>
+Build-Depends: debhelper (>= 9.0.0), qt6-base-dev, ros-lyrical-ament-cmake, ros-lyrical-geometry-msgs, ros-lyrical-mbf-msgs, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-action, ros-lyrical-rviz-common, ros-lyrical-ros-workspace
+Homepage: http://github.com/naturerobots/move_base_flex
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rviz-mbf-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt6core6t64, libqt6gui6, libqt6widgets6, qt6-base-dev, ros-lyrical-geometry-msgs, ros-lyrical-mbf-msgs, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-action, ros-lyrical-rviz-common, ros-lyrical-ros-workspace
+Description: Contains rviz plugins for interacting with move base flex.
